@@ -1,0 +1,19 @@
+img {
+ margin-top: 15px;
+ width: 200px;
+ height: auto;
+}
+
+@media (min-width:400px) and (max-width:765px){
+  img {
+    display: none;
+  }
+  .navbar navbar-default navbar-fixed {
+    display: inline-table;
+  }
+
+}
+
+.lead {
+  margin-top: 15px;
+}
