@@ -2,16 +2,20 @@ img {
  margin-top: 15px;
  width: 200px;
  height: auto;
+ padding: 15px;
+ border: dotted #adad85;
 }
 
-@media (min-width:400px) and (max-width:765px){
+@media  (max-width: 768px){
   img {
-    display: none;
+    margin-top: 40px;
   }
-  .navbar navbar-default navbar-fixed {
-    display: inline-table;
-  }
-
+  .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+ }
 }
 
 .lead {
